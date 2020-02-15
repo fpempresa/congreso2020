@@ -1585,11 +1585,11 @@ and open the template in the editor.
 }
 
 .c-parallax {
-  height: 300px;
+  min-height: 200px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .l-page {
