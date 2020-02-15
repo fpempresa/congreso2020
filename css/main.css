@@ -1537,16 +1537,33 @@ and open the template in the editor.
 }
 
 .c-text {
-  font-family: NTR, sans-serif;
+  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
   font-size: 24px;
-  color: #e85986;
+  color: #6e8091;
+  padding: 24px;
+  line-height: 1.75em;
+}
+@media only screen and (max-width: 400px) {
+  .c-text {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-text {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-text {
+    font-size: 20px;
+  }
 }
 
 .c-title {
-  font-family: NTR, sans-serif;
+  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
   text-align: center;
   font-size: 36px;
-  color: #6e8091;
+  color: #414d58;
 }
 @media only screen and (max-width: 400px) {
   .c-title {
@@ -1565,6 +1582,14 @@ and open the template in the editor.
     padding: 16px;
     font-size: 36px;
   }
+}
+
+.c-parallax {
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .l-page {
