@@ -1,0 +1,33 @@
+.c-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px; 
+
+    &--main-color {
+
+        color: $color-main-darken-1;
+        background-color: $color-main-lighten-3;
+        border-color: $color-main-lighten-2;
+
+    }
+
+    &--gris-color {
+        color: $color-gris-darken-1;
+        background-color: $color-gris-lighten-3;
+        border-color: $color-gris-lighten-2;
+    }
+
+    &--alt-color {
+        color: $color-alt-darken-1;
+        background-color: $color-alt-lighten-3;
+        border-color: $color-alt-lighten-2;
+    }
+
+    &--alt2-color {
+        color: $color-alt2-darken-1;
+        background-color: $color-alt2-lighten-3;
+        border-color: $color-alt2-lighten-2;
+    }
+}
+

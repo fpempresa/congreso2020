@@ -1,0 +1,84 @@
+.c-agenda {
+    font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+    font-size: $font-size-xs;
+    width: 100%;
+    line-height: 1.7;
+
+    @include movil {
+        font-size: $font-size-xxxxs;
+
+
+    }
+    @include tablet {
+        font-size: $font-size-xxxs;
+
+    }
+    @include desktop {
+        font-size: $font-size-xxxs;
+
+    } 
+
+
+    td {
+
+        
+        @include movil {
+            padding-top: $g-size-xxxxxs;
+            padding-bottom: $g-size-xxxxxs;
+        }
+        @include tablet {
+            padding-top: $g-size-xxxs;
+            padding-bottom: $g-size-xxxs;
+        }
+        @include desktop {
+            padding-top: $g-size-xxs;
+            padding-bottom: $g-size-xxs;
+        }        
+        
+    }
+
+    &__hora {
+        color: $color-gris;
+        padding-bottom: $g-size-xxxxs;
+    }
+
+    &__actividad {
+        padding-bottom: $g-size-xxxxs;
+        padding-left: 4px;
+        color: $color-gris-darken-3;
+    }
+
+    &__lista {
+        color: $color-gris;
+        list-style-type: circle;
+        list-style: none;
+        padding: 0;
+        
+        li {
+            padding-left: 1.5em;
+        }
+        
+        li:before {
+          font-family: 'Font Awesome 5 Free';
+          display: inline-block;
+          margin-left: -1.5em;
+          width: 1.5em; 
+        }
+        
+        &--personas li:before {
+          content: "\f508"; 
+          font-weight: 900;            
+        }
+        &--colegios li:before {
+          content: "\f549"; 
+          font-weight: 900;            
+        }
+        &--checks li:before {
+          content: "\f00c"; 
+          font-weight: 900;            
+        }        
+        
+        
+    }
+
+}

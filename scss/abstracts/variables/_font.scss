@@ -1,0 +1,26 @@
+$font-size-xxxxs:12px;
+$font-size-xxxs:14px;
+$font-size-xxs:16px;
+$font-size-xs:18px;
+$font-size-s:20px;
+$font-size-m:24px;
+$font-size-l:30px;
+$font-size-xl:36px;
+$font-size-xxl:48px;
+$font-size-xxxl:60px;
+$font-size-xxxxl:72px;
+
+$g-font-sizes:
+    (xxxxs,$font-size-xxxxs),
+    (xxxs,$font-size-xxxs),
+    (xxs,$font-size-xxxs),
+    (xs,$font-size-xs),
+    (s,$font-size-s),
+    (m,$font-size-m),
+    (l,$font-size-l),
+    (xl,$font-size-xl),
+    (xxl,$font-size-xxl),
+    (xxxl,$font-size-xxxl),
+    (xxxxl,$font-size-xxxxl);
+
+$font-family:NTR, sans-serif;

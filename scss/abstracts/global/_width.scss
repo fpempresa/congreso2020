@@ -1,0 +1,10 @@
+$g-width-sizes:$g-sizes;
+
+@each $size, $width in $g-width-sizes {
+  .g--width-#{$size} {
+    width:  $width; 
+  }
+  
+  
+}
+

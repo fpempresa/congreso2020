@@ -1,0 +1,57 @@
+$g-padding-sizes:$g-sizes;
+
+@each $size, $padding in $g-padding-sizes {
+    .g--padding-#{$size} {
+        padding:  $padding $padding $padding $padding; 
+    }
+    .g--padding-#{$size}-vertical {
+        padding-top:$padding;
+        padding-bottom: $padding;
+    } 
+    .g--padding-#{$size}-horizontal {
+        padding-right:$padding;
+        padding-left:$padding;
+    }   
+
+    @include movil {
+        .g--padding-#{$size}\@movil {
+            padding:  $padding $padding $padding $padding; 
+        }
+        .g--padding-#{$size}-vertical\@movil {
+            padding-top:$padding;
+            padding-bottom: $padding;
+        } 
+        .g--padding-#{$size}-horizontal\@movil {
+            padding-right:$padding;
+            padding-left:$padding;
+        }
+    }
+    @include tablet {
+        .g--padding-#{$size}\@tablet {
+            padding:  $padding $padding $padding $padding; 
+        }
+        .g--padding-#{$size}-vertical\@tablet {
+            padding-top:$padding;
+            padding-bottom: $padding;
+        } 
+        .g--padding-#{$size}-horizontal\@tablet {
+            padding-right:$padding;
+            padding-left:$padding;
+        }
+    }
+    @include desktop {
+        .g--padding-#{$size}\@desktop {
+            padding:  $padding $padding $padding $padding; 
+        }
+        .g--padding-#{$size}-vertical\@desktop {
+            padding-top:$padding;
+            padding-bottom: $padding;
+        } 
+        .g--padding-#{$size}-horizontal\@desktop {
+            padding-right:$padding;
+            padding-left:$padding;
+        }
+    }  
+
+}
+

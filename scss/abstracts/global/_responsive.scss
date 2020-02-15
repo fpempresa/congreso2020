@@ -1,0 +1,21 @@
+$break-movil: 400px;
+$break-desktop: 1024px;
+
+
+@mixin movil {
+  @media only screen and (max-width: $break-movil) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: $break-movil + 1) and (max-width: $break-desktop - 1) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: $break-desktop) {
+    @content;
+  }
+}

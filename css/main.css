@@ -1,0 +1,1578 @@
+@charset "UTF-8";
+.g--padding-xxxxxxs {
+  padding: 4px 4px 4px 4px;
+}
+
+.g--padding-xxxxxxs-vertical {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.g--padding-xxxxxxs-horizontal {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxxxxxs\@movil {
+    padding: 4px 4px 4px 4px;
+  }
+
+  .g--padding-xxxxxxs-vertical\@movil {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .g--padding-xxxxxxs-horizontal\@movil {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxxxxxs\@tablet {
+    padding: 4px 4px 4px 4px;
+  }
+
+  .g--padding-xxxxxxs-vertical\@tablet {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .g--padding-xxxxxxs-horizontal\@tablet {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxxxxxs\@desktop {
+    padding: 4px 4px 4px 4px;
+  }
+
+  .g--padding-xxxxxxs-vertical\@desktop {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .g--padding-xxxxxxs-horizontal\@desktop {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+.g--padding-xxxxxs {
+  padding: 8px 8px 8px 8px;
+}
+
+.g--padding-xxxxxs-vertical {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.g--padding-xxxxxs-horizontal {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxxxxs\@movil {
+    padding: 8px 8px 8px 8px;
+  }
+
+  .g--padding-xxxxxs-vertical\@movil {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .g--padding-xxxxxs-horizontal\@movil {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxxxxs\@tablet {
+    padding: 8px 8px 8px 8px;
+  }
+
+  .g--padding-xxxxxs-vertical\@tablet {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .g--padding-xxxxxs-horizontal\@tablet {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxxxxs\@desktop {
+    padding: 8px 8px 8px 8px;
+  }
+
+  .g--padding-xxxxxs-vertical\@desktop {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .g--padding-xxxxxs-horizontal\@desktop {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+.g--padding-xxxxs {
+  padding: 12px 12px 12px 12px;
+}
+
+.g--padding-xxxxs-vertical {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.g--padding-xxxxs-horizontal {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxxxs\@movil {
+    padding: 12px 12px 12px 12px;
+  }
+
+  .g--padding-xxxxs-vertical\@movil {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .g--padding-xxxxs-horizontal\@movil {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxxxs\@tablet {
+    padding: 12px 12px 12px 12px;
+  }
+
+  .g--padding-xxxxs-vertical\@tablet {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .g--padding-xxxxs-horizontal\@tablet {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxxxs\@desktop {
+    padding: 12px 12px 12px 12px;
+  }
+
+  .g--padding-xxxxs-vertical\@desktop {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .g--padding-xxxxs-horizontal\@desktop {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+.g--padding-xxxs {
+  padding: 16px 16px 16px 16px;
+}
+
+.g--padding-xxxs-vertical {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.g--padding-xxxs-horizontal {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxxs\@movil {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .g--padding-xxxs-vertical\@movil {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .g--padding-xxxs-horizontal\@movil {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxxs\@tablet {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .g--padding-xxxs-vertical\@tablet {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .g--padding-xxxs-horizontal\@tablet {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxxs\@desktop {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .g--padding-xxxs-vertical\@desktop {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .g--padding-xxxs-horizontal\@desktop {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+.g--padding-xxs {
+  padding: 16px 16px 16px 16px;
+}
+
+.g--padding-xxs-vertical {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.g--padding-xxs-horizontal {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxs\@movil {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .g--padding-xxs-vertical\@movil {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .g--padding-xxs-horizontal\@movil {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxs\@tablet {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .g--padding-xxs-vertical\@tablet {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .g--padding-xxs-horizontal\@tablet {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxs\@desktop {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .g--padding-xxs-vertical\@desktop {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .g--padding-xxs-horizontal\@desktop {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+.g--padding-xs {
+  padding: 32px 32px 32px 32px;
+}
+
+.g--padding-xs-vertical {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.g--padding-xs-horizontal {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xs\@movil {
+    padding: 32px 32px 32px 32px;
+  }
+
+  .g--padding-xs-vertical\@movil {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .g--padding-xs-horizontal\@movil {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xs\@tablet {
+    padding: 32px 32px 32px 32px;
+  }
+
+  .g--padding-xs-vertical\@tablet {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .g--padding-xs-horizontal\@tablet {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xs\@desktop {
+    padding: 32px 32px 32px 32px;
+  }
+
+  .g--padding-xs-vertical\@desktop {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .g--padding-xs-horizontal\@desktop {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+.g--padding-s {
+  padding: 48px 48px 48px 48px;
+}
+
+.g--padding-s-vertical {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.g--padding-s-horizontal {
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-s\@movil {
+    padding: 48px 48px 48px 48px;
+  }
+
+  .g--padding-s-vertical\@movil {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .g--padding-s-horizontal\@movil {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-s\@tablet {
+    padding: 48px 48px 48px 48px;
+  }
+
+  .g--padding-s-vertical\@tablet {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .g--padding-s-horizontal\@tablet {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-s\@desktop {
+    padding: 48px 48px 48px 48px;
+  }
+
+  .g--padding-s-vertical\@desktop {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .g--padding-s-horizontal\@desktop {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+.g--padding-m {
+  padding: 64px 64px 64px 64px;
+}
+
+.g--padding-m-vertical {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.g--padding-m-horizontal {
+  padding-right: 64px;
+  padding-left: 64px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-m\@movil {
+    padding: 64px 64px 64px 64px;
+  }
+
+  .g--padding-m-vertical\@movil {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .g--padding-m-horizontal\@movil {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-m\@tablet {
+    padding: 64px 64px 64px 64px;
+  }
+
+  .g--padding-m-vertical\@tablet {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .g--padding-m-horizontal\@tablet {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-m\@desktop {
+    padding: 64px 64px 64px 64px;
+  }
+
+  .g--padding-m-vertical\@desktop {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .g--padding-m-horizontal\@desktop {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+}
+.g--padding-l {
+  padding: 96px 96px 96px 96px;
+}
+
+.g--padding-l-vertical {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.g--padding-l-horizontal {
+  padding-right: 96px;
+  padding-left: 96px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-l\@movil {
+    padding: 96px 96px 96px 96px;
+  }
+
+  .g--padding-l-vertical\@movil {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .g--padding-l-horizontal\@movil {
+    padding-right: 96px;
+    padding-left: 96px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-l\@tablet {
+    padding: 96px 96px 96px 96px;
+  }
+
+  .g--padding-l-vertical\@tablet {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .g--padding-l-horizontal\@tablet {
+    padding-right: 96px;
+    padding-left: 96px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-l\@desktop {
+    padding: 96px 96px 96px 96px;
+  }
+
+  .g--padding-l-vertical\@desktop {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .g--padding-l-horizontal\@desktop {
+    padding-right: 96px;
+    padding-left: 96px;
+  }
+}
+.g--padding-xl {
+  padding: 128px 128px 128px 128px;
+}
+
+.g--padding-xl-vertical {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.g--padding-xl-horizontal {
+  padding-right: 128px;
+  padding-left: 128px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xl\@movil {
+    padding: 128px 128px 128px 128px;
+  }
+
+  .g--padding-xl-vertical\@movil {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+
+  .g--padding-xl-horizontal\@movil {
+    padding-right: 128px;
+    padding-left: 128px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xl\@tablet {
+    padding: 128px 128px 128px 128px;
+  }
+
+  .g--padding-xl-vertical\@tablet {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+
+  .g--padding-xl-horizontal\@tablet {
+    padding-right: 128px;
+    padding-left: 128px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xl\@desktop {
+    padding: 128px 128px 128px 128px;
+  }
+
+  .g--padding-xl-vertical\@desktop {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+
+  .g--padding-xl-horizontal\@desktop {
+    padding-right: 128px;
+    padding-left: 128px;
+  }
+}
+.g--padding-xxl {
+  padding: 192px 192px 192px 192px;
+}
+
+.g--padding-xxl-vertical {
+  padding-top: 192px;
+  padding-bottom: 192px;
+}
+
+.g--padding-xxl-horizontal {
+  padding-right: 192px;
+  padding-left: 192px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxl\@movil {
+    padding: 192px 192px 192px 192px;
+  }
+
+  .g--padding-xxl-vertical\@movil {
+    padding-top: 192px;
+    padding-bottom: 192px;
+  }
+
+  .g--padding-xxl-horizontal\@movil {
+    padding-right: 192px;
+    padding-left: 192px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxl\@tablet {
+    padding: 192px 192px 192px 192px;
+  }
+
+  .g--padding-xxl-vertical\@tablet {
+    padding-top: 192px;
+    padding-bottom: 192px;
+  }
+
+  .g--padding-xxl-horizontal\@tablet {
+    padding-right: 192px;
+    padding-left: 192px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxl\@desktop {
+    padding: 192px 192px 192px 192px;
+  }
+
+  .g--padding-xxl-vertical\@desktop {
+    padding-top: 192px;
+    padding-bottom: 192px;
+  }
+
+  .g--padding-xxl-horizontal\@desktop {
+    padding-right: 192px;
+    padding-left: 192px;
+  }
+}
+.g--padding-xxxl {
+  padding: 256px 256px 256px 256px;
+}
+
+.g--padding-xxxl-vertical {
+  padding-top: 256px;
+  padding-bottom: 256px;
+}
+
+.g--padding-xxxl-horizontal {
+  padding-right: 256px;
+  padding-left: 256px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxxl\@movil {
+    padding: 256px 256px 256px 256px;
+  }
+
+  .g--padding-xxxl-vertical\@movil {
+    padding-top: 256px;
+    padding-bottom: 256px;
+  }
+
+  .g--padding-xxxl-horizontal\@movil {
+    padding-right: 256px;
+    padding-left: 256px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxxl\@tablet {
+    padding: 256px 256px 256px 256px;
+  }
+
+  .g--padding-xxxl-vertical\@tablet {
+    padding-top: 256px;
+    padding-bottom: 256px;
+  }
+
+  .g--padding-xxxl-horizontal\@tablet {
+    padding-right: 256px;
+    padding-left: 256px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxxl\@desktop {
+    padding: 256px 256px 256px 256px;
+  }
+
+  .g--padding-xxxl-vertical\@desktop {
+    padding-top: 256px;
+    padding-bottom: 256px;
+  }
+
+  .g--padding-xxxl-horizontal\@desktop {
+    padding-right: 256px;
+    padding-left: 256px;
+  }
+}
+.g--padding-xxxxl {
+  padding: 384px 384px 384px 384px;
+}
+
+.g--padding-xxxxl-vertical {
+  padding-top: 384px;
+  padding-bottom: 384px;
+}
+
+.g--padding-xxxxl-horizontal {
+  padding-right: 384px;
+  padding-left: 384px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxxxl\@movil {
+    padding: 384px 384px 384px 384px;
+  }
+
+  .g--padding-xxxxl-vertical\@movil {
+    padding-top: 384px;
+    padding-bottom: 384px;
+  }
+
+  .g--padding-xxxxl-horizontal\@movil {
+    padding-right: 384px;
+    padding-left: 384px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxxxl\@tablet {
+    padding: 384px 384px 384px 384px;
+  }
+
+  .g--padding-xxxxl-vertical\@tablet {
+    padding-top: 384px;
+    padding-bottom: 384px;
+  }
+
+  .g--padding-xxxxl-horizontal\@tablet {
+    padding-right: 384px;
+    padding-left: 384px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxxxl\@desktop {
+    padding: 384px 384px 384px 384px;
+  }
+
+  .g--padding-xxxxl-vertical\@desktop {
+    padding-top: 384px;
+    padding-bottom: 384px;
+  }
+
+  .g--padding-xxxxl-horizontal\@desktop {
+    padding-right: 384px;
+    padding-left: 384px;
+  }
+}
+.g--padding-xxxxxl {
+  padding: 512px 512px 512px 512px;
+}
+
+.g--padding-xxxxxl-vertical {
+  padding-top: 512px;
+  padding-bottom: 512px;
+}
+
+.g--padding-xxxxxl-horizontal {
+  padding-right: 512px;
+  padding-left: 512px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxxxxl\@movil {
+    padding: 512px 512px 512px 512px;
+  }
+
+  .g--padding-xxxxxl-vertical\@movil {
+    padding-top: 512px;
+    padding-bottom: 512px;
+  }
+
+  .g--padding-xxxxxl-horizontal\@movil {
+    padding-right: 512px;
+    padding-left: 512px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxxxxl\@tablet {
+    padding: 512px 512px 512px 512px;
+  }
+
+  .g--padding-xxxxxl-vertical\@tablet {
+    padding-top: 512px;
+    padding-bottom: 512px;
+  }
+
+  .g--padding-xxxxxl-horizontal\@tablet {
+    padding-right: 512px;
+    padding-left: 512px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxxxxl\@desktop {
+    padding: 512px 512px 512px 512px;
+  }
+
+  .g--padding-xxxxxl-vertical\@desktop {
+    padding-top: 512px;
+    padding-bottom: 512px;
+  }
+
+  .g--padding-xxxxxl-horizontal\@desktop {
+    padding-right: 512px;
+    padding-left: 512px;
+  }
+}
+.g--padding-xxxxxxl {
+  padding: 640px 640px 640px 640px;
+}
+
+.g--padding-xxxxxxl-vertical {
+  padding-top: 640px;
+  padding-bottom: 640px;
+}
+
+.g--padding-xxxxxxl-horizontal {
+  padding-right: 640px;
+  padding-left: 640px;
+}
+
+@media only screen and (max-width: 400px) {
+  .g--padding-xxxxxxl\@movil {
+    padding: 640px 640px 640px 640px;
+  }
+
+  .g--padding-xxxxxxl-vertical\@movil {
+    padding-top: 640px;
+    padding-bottom: 640px;
+  }
+
+  .g--padding-xxxxxxl-horizontal\@movil {
+    padding-right: 640px;
+    padding-left: 640px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .g--padding-xxxxxxl\@tablet {
+    padding: 640px 640px 640px 640px;
+  }
+
+  .g--padding-xxxxxxl-vertical\@tablet {
+    padding-top: 640px;
+    padding-bottom: 640px;
+  }
+
+  .g--padding-xxxxxxl-horizontal\@tablet {
+    padding-right: 640px;
+    padding-left: 640px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .g--padding-xxxxxxl\@desktop {
+    padding: 640px 640px 640px 640px;
+  }
+
+  .g--padding-xxxxxxl-vertical\@desktop {
+    padding-top: 640px;
+    padding-bottom: 640px;
+  }
+
+  .g--padding-xxxxxxl-horizontal\@desktop {
+    padding-right: 640px;
+    padding-left: 640px;
+  }
+}
+.g--width-xxxxxxs {
+  width: 4px;
+}
+
+.g--width-xxxxxs {
+  width: 8px;
+}
+
+.g--width-xxxxs {
+  width: 12px;
+}
+
+.g--width-xxxs {
+  width: 16px;
+}
+
+.g--width-xxs {
+  width: 16px;
+}
+
+.g--width-xs {
+  width: 32px;
+}
+
+.g--width-s {
+  width: 48px;
+}
+
+.g--width-m {
+  width: 64px;
+}
+
+.g--width-l {
+  width: 96px;
+}
+
+.g--width-xl {
+  width: 128px;
+}
+
+.g--width-xxl {
+  width: 192px;
+}
+
+.g--width-xxxl {
+  width: 256px;
+}
+
+.g--width-xxxxl {
+  width: 384px;
+}
+
+.g--width-xxxxxl {
+  width: 512px;
+}
+
+.g--width-xxxxxxl {
+  width: 640px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.c-agenda {
+  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+  font-size: 18px;
+  width: 100%;
+  line-height: 1.7;
+}
+@media only screen and (max-width: 400px) {
+  .c-agenda {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-agenda {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-agenda {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .c-agenda td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-agenda td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-agenda td {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+.c-agenda__hora {
+  color: #6e8091;
+  padding-bottom: 12px;
+}
+.c-agenda__actividad {
+  padding-bottom: 12px;
+  padding-left: 4px;
+  color: #060809;
+}
+.c-agenda__lista {
+  color: #6e8091;
+  list-style-type: circle;
+  list-style: none;
+  padding: 0;
+}
+.c-agenda__lista li {
+  padding-left: 1.5em;
+}
+.c-agenda__lista li:before {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.5em;
+}
+.c-agenda__lista--personas li:before {
+  content: "";
+  font-weight: 900;
+}
+.c-agenda__lista--colegios li:before {
+  content: "";
+  font-weight: 900;
+}
+.c-agenda__lista--checks li:before {
+  content: "";
+  font-weight: 900;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-feb-2020, 12:12:37
+    Author     : logongas
+*/
+.c-message {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.c-message--main-color {
+  color: #a61744;
+  background-color: #fed7e3;
+  border-color: #f7a1bc;
+}
+.c-message--gris-color {
+  color: #414d58;
+  background-color: #f6f7f9;
+  border-color: #e1e6ea;
+}
+.c-message--alt-color {
+  color: #6a981b;
+  background-color: #f6ffe6;
+  border-color: #d7f7a1;
+}
+.c-message--alt2-color {
+  color: #1b5998;
+  background-color: #e6f2ff;
+  border-color: #a1ccf7;
+}
+
+.c-page {
+  background-color: #f6f7f9;
+}
+
+.c-section {
+  background-color: #ffffff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+@media only screen and (max-width: 400px) {
+  .c-section {
+    max-width: 390px px;
+    padding: 8px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-section {
+    max-width: 700px;
+    padding: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-section {
+    max-width: 900px;
+    padding: 32px;
+  }
+}
+.c-section__title {
+  font-family: NTR, sans-serif;
+  font-size: 48px;
+  color: #fed7e3;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #e85986, 2px -2px 0 #e85986, -2px 2px 0 #e85986, -2px -2px 0 #e85986, 2px 0px 0 #e85986, 0px 2px 0 #e85986, -2px 0px 0 #e85986, 0px -2px 0 #e85986;
+}
+@media only screen and (max-width: 400px) {
+  .c-section__title {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-section__title {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-section__title {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .c-section__content {
+    padding-top: 0px;
+    padding-bottom: 24px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-section__content {
+    padding-top: 0px;
+    padding-bottom: 48px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-section__content {
+    padding-top: 0px;
+    padding-bottom: 64px;
+  }
+}
+
+.c-text {
+  font-family: NTR, sans-serif;
+  font-size: 24px;
+  color: #e85986;
+}
+
+.c-title {
+  font-family: NTR, sans-serif;
+  text-align: center;
+  font-size: 36px;
+  color: #6e8091;
+}
+@media only screen and (max-width: 400px) {
+  .c-title {
+    padding: 4px;
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-title {
+    padding: 12px;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-title {
+    padding: 16px;
+    font-size: 36px;
+  }
+}
+
+.l-page {
+  display: flex;
+  flex-direction: column;
+}
+.l-page__area {
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */

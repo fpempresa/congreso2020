@@ -1,0 +1,76 @@
+.c-section {
+    background-color: #ffffff;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    //box-shadow: 6px 6px 3px -3px rgba(0,0,0,0.33);
+    border-radius: 3px;
+    margin-bottom: 3px;
+    
+    @include movil {
+        max-width: ($break-movil - 10)px;
+        //margin-top: $g-size-xxxxxs;
+        //margin-bottom: $g-size-xxxxxs; 
+        padding: $g-size-xxxxxs;
+
+    }
+    @include tablet {
+        max-width: 700px;
+        //margin-top: $g-size-xxxs;
+        //margin-bottom: $g-size-xxxs;
+        padding: $g-size-xxxs;
+
+    }
+    @include desktop {
+        max-width: 900px;
+        //margin-top: $g-size-xs;
+        //margin-bottom: $g-size-xs;
+        padding: $g-size-xs;
+
+    } 
+
+
+    &__title {
+        font-family: $font-family;
+        font-size: $font-size-xxl;
+        color: $color-main-lighten-3;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 0 $color-main-lighten-1, 2px -2px 0 $color-main-lighten-1, -2px 2px 0 $color-main-lighten-1, -2px -2px 0 $color-main-lighten-1, 2px 0px 0 $color-main-lighten-1, 0px 2px 0 $color-main-lighten-1, -2px 0px 0 $color-main-lighten-1, 0px -2px 0 $color-main-lighten-1;
+        
+        @include movil {
+            padding-top: $g-size-xxs;
+            padding-bottom: $g-size-xxs;
+            font-size: $font-size-l;
+        }
+        @include tablet {
+            padding-top: $g-size-s;
+            padding-bottom: $g-size-s;
+            font-size: $font-size-xl;
+        }
+        @include desktop {
+            padding-top: $g-size-m;
+            padding-bottom: $g-size-m;
+            font-size: $font-size-xxl;
+        }        
+
+    }
+
+    &__content {
+        @include movil {
+            padding-top: 0px;
+            padding-bottom: $g-size-xxs;
+        }
+        @include tablet {
+            padding-top:0px;
+            padding-bottom: $g-size-s;
+        }
+        @include desktop {
+            padding-top:0px;
+            padding-bottom: $g-size-m;
+        } 
+    }
+
+
+
+}

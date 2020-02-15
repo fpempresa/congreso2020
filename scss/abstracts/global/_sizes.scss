@@ -1,0 +1,32 @@
+$g-size-xxxxxxs:4px;
+$g-size-xxxxxs:8px;
+$g-size-xxxxs:12px;
+$g-size-xxxs:16px;
+$g-size-xxs:24px;
+$g-size-xs:32px;
+$g-size-s:48px;
+$g-size-m:64px;
+$g-size-l:96px;
+$g-size-xl:128px;
+$g-size-xxl:192px;
+$g-size-xxxl:256px;
+$g-size-xxxxl:384px;
+$g-size-xxxxxl:512px;
+$g-size-xxxxxxl:640px;
+
+$g-sizes:
+    (xxxxxxs,$g-size-xxxxxxs),
+    (xxxxxs,$g-size-xxxxxs),
+    (xxxxs,$g-size-xxxxs),
+    (xxxs,$g-size-xxxs),
+    (xxs,$g-size-xxxs),
+    (xs,$g-size-xs),
+    (s,$g-size-s),
+    (m,$g-size-m),
+    (l,$g-size-l),
+    (xl,$g-size-xl),
+    (xxl,$g-size-xxl),
+    (xxxl,$g-size-xxxl),
+    (xxxxl,$g-size-xxxxl),
+    (xxxxxl,$g-size-xxxxxl),
+    (xxxxxxl,$g-size-xxxxxxl);
