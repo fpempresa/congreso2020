@@ -1346,6 +1346,18 @@ a:hover {
   text-decoration: underline;
 }
 
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
 .c-agenda {
   font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
   font-size: 18px;
@@ -1487,6 +1499,9 @@ and open the template in the editor.
     max-width: 900px;
     padding: 32px;
   }
+}
+.c-section--padding-zero {
+  padding: 0px;
 }
 .c-section__title {
   font-family: NTR, sans-serif;
