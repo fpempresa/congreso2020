@@ -1,5 +1,5 @@
 $c-main-menu-menu-height: 62px;
-$c-main-menu-break-menu: 700px;
+$c-main-menu-break-menu: 779px;
 $c-main-menu-logo-width: 250px;
 $c-main-menu-background-color:#0055B8;
 $c-main-menu-color:#FFFFFF;
@@ -27,8 +27,17 @@ $c-main-menu-color:#FFFFFF;
 
     &__logo {
         grid-area:logo;
+        background-image: url(../img/logo/logo_fp_empresa2_invertido.png);
+        height: 59px;
+        width: 214px;
     }
-
+    @media only screen and (max-width: 417px) {
+        &__logo {
+            background-image: url(../img/logo/logo_fp_empresa2_invertido_small.png);
+            width: 108px;
+        }
+    }
+    
     &__hamburger {
         grid-area:hamburger;
         display: none;
@@ -52,6 +61,7 @@ $c-main-menu-color:#FFFFFF;
         padding-bottom: 0px;
         font-size: $font-size-xs;
         font-weight: bold;
+        white-space: nowrap;
     }
     @media only screen and (max-width: $c-main-menu-break-menu) {
         &__main-button {
@@ -80,13 +90,15 @@ $c-main-menu-color:#FFFFFF;
 
 
     &__item {
-        padding: $g-size-xxxs;
-        padding-top: 25px;
+        padding: 0px;
+        margin-top: $g-size-xxxs+7;
+        margin-bottom: $g-size-xxxs;
+        padding-left: $g-size-xxxxs;
+        padding-right: $g-size-xxxxs;
     } 
 
     @media only screen and (max-width: $c-main-menu-break-menu) {
         &__item {
-
         }
 
     }    
