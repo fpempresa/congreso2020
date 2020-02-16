@@ -8,8 +8,63 @@
         <link href="vendor/fontawesome/css/all.css" rel="stylesheet" type="text/css"/>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
         <script src="vendor/fontawesome/js/all.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            function toggleVisibilityMenu() {
+                var itemsElements = document.getElementsByClassName("c-main-menu__items");
+
+                if (itemsElements[0].className.indexOf("c-main-menu__items--movil-visible") >= 0) {
+                    itemsElements[0].className = " c-main-menu__items c-main-menu__items--movil-hide";
+                } else {
+                    itemsElements[0].className = "c-main-menu__items c-main-menu__items--movil-visible";
+                }
+            }
+            
+            function offset(el) {
+                var rect = el.getBoundingClientRect(),
+                scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+                scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+            }
+           
+            
+            function moveTo(idElement) {
+                var topOffset;
+                if (idElement) {
+                    var element=document.getElementById(idElement);
+                    var divOffset = offset(element);
+                    topOffset=divOffset.top;
+                } else {
+                    topOffset=0;
+                }
+                
+
+                window.scroll({
+                  top: topOffset-59,
+                  left: 0,
+                  behavior: 'smooth'
+                });
+                var itemsElements = document.getElementsByClassName("c-main-menu__items");
+                itemsElements[0].className = " c-main-menu__items c-main-menu__items--movil-hide";
+                
+            }
+        </script>
     </head>
     <body class="c-page">
+       
+        <div class="c-main-menu">
+            <a href="javascript:void(0);" onclick="moveTo()"><img class="c-main-menu__logo" src="img/logo/logo_fp_empresa_small_invertido.png" height="59" alt=""  /></a>
+            <a href="javascript:void(0);" class="c-main-menu__hamburger" onclick="toggleVisibilityMenu()"><i class="fas fa-bars"></i></a>
+            <ul class="c-main-menu__items c-main-menu__items--movil-hide">
+                <a href="javascript:void(0);" onclick="moveTo('donde')"><li class="c-main-menu__item">Donde</li></a>
+                <a href="javascript:void(0);" onclick="moveTo('agenda')"><li class="c-main-menu__item">Agenda</li></a>
+                <a href="javascript:void(0);" onclick="moveTo('alojamiento')"><li class="c-main-menu__item">Alojamiento</li></a>
+                <a href="javascript:void(0);" onclick="moveTo('objetivos')"><li class="c-main-menu__item">Objetivos</li></a>
+            </ul>
+            <a class="c-main-menu__main-button" href="https://forms.gle/VMC2Euyw7F6X9D7A8">&nbsp;<i class="fas fa-user-edit"></i>&nbsp;Inscripción</a>
+        </div>        
+        
+
+
         <div class="l-page">
             <div class="l-page__area">
                 <div class="c-section c-section--padding-zero">
@@ -18,7 +73,7 @@
             </div>
 
             <div class="l-page__area">
-                <div class="c-section">
+                <div class="c-section" id="donde">
                     <div class="c-section__title">Donde</div>
                     <div class="c-parallax" style="background-image: url('./img/auditorium-2816353_1280.jpg');"></div>
                     <div class="c-section__content">
@@ -30,7 +85,7 @@
                     </div>
                 </div>                
             </div>
-            <div class="l-page__area">
+            <div class="l-page__area" id="agenda">
                 <div class="c-section">
                     <div class="c-section__title">Agenda</div>
                     <div class="c-parallax" style="background-image: url('./img/day-planner-828611_1280.jpg');"></div>
@@ -250,7 +305,7 @@
                 </div> 
             </div>
             <div class="l-page__area">
-                <div class="c-section">
+                <div class="c-section" id="alojamiento">
                     <div class="c-section__title">Alojamiento</div>
                     <div class="c-section__content">
                         <p style="color:#EABE3F;text-align: center;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
@@ -266,7 +321,7 @@
                 </div> 
             </div>
             <div class="l-page__area">
-                <div class="c-section ">
+                <div class="c-section " id="objetivos">
                     <div class="c-section__title">Objetivos</div>
                     <div class="c-parallax" style="background-image: url('./img/mountain-1210900_1280.jpg');"></div>
                     <div class="c-section__content">
@@ -292,11 +347,9 @@
             </div>
             <div class="l-page__area">
                 <div class="c-section ">
-                    <img src="../congreso2019/img/logo/gobcan.png" alt=""/>
                     <div style="display:flex;font-size: 18px;text-align: left;font-weight:bold;flex-wrap: wrap;justify-content:  space-around">
                         <div >Organiza:<br><a href="http://www.fpempresa.net"><img src="./img/logo/logo_fp_empresa1.png" title="FPempresa"/></a></div>
                         <div >Patrocina:<br><a href="https://www.dualizabankia.com/"><img  height="100" src="./img/logo/dualiza.jpg" title="FP Dual Bankia"  /></a></div>
-
                         <div >Colabora:<br><a href="https://www.gobiernodecanarias.org/educacion/web/"><img  height="100" src="./img/logo/canarias.png" title="Consejería de Educación, Universidades, Cultura y Deportes del Gobierno de Canarias"  /></a></div>
                     </div>
                 </div> 
@@ -304,12 +357,12 @@
             <div class="l-page__area">
                 <div class="c-section ">
                     <p class="c-text" style="text-align: center">
-                    <a href="https://twitter.com/fp_empresa" target="_blank" class="social__icon section--color-light"><i class="fab fa-twitter"></i>&nbsp;&nbsp;#fpempresa</a>
-                    <br>
-                    <br>
-                    <a href="http://fpempresa.net"  class="section--color-light">&copy; 2020 Asociaci&oacute;n de centros de FP (AC-FP)</a>
-                    <br>
-                    <br>
+                        <a href="https://twitter.com/fp_empresa" target="_blank" class="social__icon section--color-light"><i class="fab fa-twitter"></i>&nbsp;&nbsp;#fpcuéntalo</a>
+                        <br>
+                        <br>
+                        <a href="http://fpempresa.net"  class="section--color-light">&copy; 2020 Asociaci&oacute;n de centros de FP (AC-FP)</a>
+                        <br>
+                        <br>
                     </p>
                 </div> 
             </div>              

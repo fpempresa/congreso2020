@@ -19,3 +19,15 @@ $break-desktop: 1024px;
     @content;
   }
 }
+
+@mixin movil_tablet {
+  @media only screen and (max-width: $break-desktop - 1) {
+    @content;
+  }
+}
+
+@mixin tablet_desktop {
+  @media only screen and (min-width: $break-movil + 1) {
+    @content;
+  }
+}

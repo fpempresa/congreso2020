@@ -1,0 +1,107 @@
+$c-main-menu-menu-height: 62px;
+$c-main-menu-break-menu: 700px;
+$c-main-menu-logo-width: 250px;
+$c-main-menu-background-color:#0055B8;
+$c-main-menu-color:#FFFFFF;
+
+.c-main-menu {
+    position: fixed;
+    left:0px;
+    top: 0px;
+    width: 100%;
+    height: $c-main-menu-menu-height;
+    background-color: $c-main-menu-background-color;
+    color: $c-main-menu-color;
+    font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+    font-size: $font-size-xxs;
+
+
+    display: grid;
+    grid-template-areas:"logo  items main-button";
+    grid-template-columns: 1fr 1fr auto;
+
+    @media only screen and (max-width: $c-main-menu-break-menu) {
+        grid-template-areas:"logo main-button hamburger"
+            "items items items";
+    }
+
+    &__logo {
+        grid-area:logo;
+    }
+
+    &__hamburger {
+        grid-area:hamburger;
+        display: none;
+    }    
+    @media only screen and (max-width: $c-main-menu-break-menu) {
+        &__hamburger {
+
+            display: inline-block;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+        }
+    }
+
+    &__main-button {
+
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        font-size: $font-size-xs;
+        font-weight: bold;
+    }
+    @media only screen and (max-width: $c-main-menu-break-menu) {
+        &__main-button {
+            margin-left: auto;
+            padding-top: 20px;
+            padding-left: 0px;
+            padding-right: 0px;
+            font-size: $font-size-xs;
+        } 
+    }
+
+    &__items {
+        grid-area:items;
+
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+        background-color: $c-main-menu-background-color;
+    }  
+    @media only screen and (max-width: $c-main-menu-break-menu) {
+        &__items {
+            margin-left:0;
+            flex-direction: column;
+        }
+    }
+
+
+    &__item {
+        padding: $g-size-xxxs;
+        padding-top: 25px;
+    } 
+
+    @media only screen and (max-width: $c-main-menu-break-menu) {
+        &__item {
+
+        }
+
+    }    
+
+    @media only screen and (max-width: $c-main-menu-break-menu) {
+        &__items--movil-visible {
+            display: block;
+        }
+
+        &__items--movil-hide {
+            display: none;
+        }
+    }
+}
+
+
+
+
