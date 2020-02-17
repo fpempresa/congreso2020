@@ -37,7 +37,7 @@ $c-main-menu-color:#FFFFFF;
             width: 108px;
         }
     }
-    
+
     &__hamburger {
         grid-area:hamburger;
         display: none;
@@ -105,13 +105,49 @@ $c-main-menu-color:#FFFFFF;
 
     @media only screen and (max-width: $c-main-menu-break-menu) {
         &__items--movil-visible {
-            display: block;
+            display: flex;
         }
 
         &__items--movil-hide {
             display: none;
         }
+        
+        &__items--animation-rollout {
+            display: flex;
+            animation-name: rollout;
+            animation-duration: 1s;
+        }
+        &__items--animation-rollin {
+            display: flex;
+            animation-name: rollin;
+            animation-duration: 1s;
+        }         
     }
+
+   
+
+    @keyframes rollout {
+        from {
+            transform-origin: 0 0;
+            transform: scaleY(0) ;
+        }
+        to {
+            transform-origin: 0 0;
+            transform: scaleY(1) ;
+        }
+    } 
+
+    @keyframes rollin {
+        from {
+            transform-origin: 0 0;
+            transform: scaleY(1) ;
+        }
+        to {
+            transform-origin: 0 0;
+            transform: scaleY(0) ;
+        }
+
+    } 
 }
 
 

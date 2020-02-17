@@ -4,7 +4,7 @@
         <title>VII Congreso de Formación Profesional</title>
         <meta name="description" content="VII Congreso de Formación Profesional">
         <meta name="keywords" content="fp,formación profesional,educación,congreso,empleafp,FPEmpresa,dual,dualiza"/>
-        
+
         <meta name="author" content="FPEmpresa">
         <link rel="icon" href="img/favicon.png"  />
 
@@ -19,44 +19,91 @@
                 var itemsElements = document.getElementsByClassName("c-main-menu__items");
 
                 if (itemsElements[0].className.indexOf("c-main-menu__items--movil-visible") >= 0) {
-                    itemsElements[0].className = " c-main-menu__items c-main-menu__items--movil-hide";
+                    hideMenuItems();
                 } else {
-                    itemsElements[0].className = "c-main-menu__items c-main-menu__items--movil-visible";
+                    showMenuItems();
+                }
+
+            }
+
+
+            window.addEventListener('load', function (event) {
+                var itemsElements = document.getElementsByClassName("c-main-menu__items");
+                itemsElements[0].addEventListener("animationend", function (event) {
+                    if (itemsElements[0].className.indexOf("c-main-menu__items--movil-visible") >= 0) {
+                        itemsElements[0].className = " c-main-menu__items c-main-menu__items--movil-visible";
+                    } else {
+                        itemsElements[0].className = "c-main-menu__items c-main-menu__items--movil-hide";
+                    }
+                }, false);
+            });
+
+            function hideMenuItems() {
+                var itemsElements = document.getElementsByClassName("c-main-menu__items");
+                
+                var cssClass="c-main-menu__items  c-main-menu__items--movil-hide";
+                
+                if (isVisibleHamburguer()) {
+                    cssClass=cssClass + " c-main-menu__items--animation-rollin ";
+                }
+                
+                itemsElements[0].className = cssClass;
+            }
+            function showMenuItems() {
+                var itemsElements = document.getElementsByClassName("c-main-menu__items");
+                
+                var cssClass="c-main-menu__items  c-main-menu__items--movil-visible";
+                
+
+                if (isVisibleHamburguer()) {
+                    cssClass=cssClass + " c-main-menu__items--animation-rollout ";
+                }
+                
+                itemsElements[0].className = cssClass; 
+            }
+            
+            function isVisibleHamburguer() {
+                var hamburgerElements = document.getElementsByClassName("c-main-menu__hamburger");
+                var display=getComputedStyle(hamburgerElements[0], null).display;
+                
+                if (display!=="none") {
+                    return true;
+                } else {
+                    return false;
                 }
             }
-            
+
             function offset(el) {
                 var rect = el.getBoundingClientRect(),
-                scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-                scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+                        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+                        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                return {top: rect.top + scrollTop, left: rect.left + scrollLeft}
             }
-           
-            
+
+
             function moveTo(idElement) {
                 var topOffset;
                 if (idElement) {
-                    var element=document.getElementById(idElement);
+                    var element = document.getElementById(idElement);
                     var divOffset = offset(element);
-                    topOffset=divOffset.top;
+                    topOffset = divOffset.top;
                 } else {
-                    topOffset=0;
+                    topOffset = 0;
                 }
-                
+
 
                 window.scroll({
-                  top: topOffset-59,
-                  left: 0,
-                  behavior: 'smooth'
+                    top: topOffset - 59,
+                    left: 0,
+                    behavior: 'smooth'
                 });
-                var itemsElements = document.getElementsByClassName("c-main-menu__items");
-                itemsElements[0].className = " c-main-menu__items c-main-menu__items--movil-hide";
-                
+                hideMenuItems();
+
             }
         </script>
     </head>
     <body class="c-page">
-       
+
         <div class="c-main-menu">
             <a href="javascript:void(0);" onclick="moveTo()"><div class="c-main-menu__logo"  ></div></a>
             <a href="javascript:void(0);" class="c-main-menu__hamburger" onclick="toggleVisibilityMenu()"><i class="fas fa-bars"></i></a>
@@ -68,7 +115,7 @@
             </ul>
             <a class="c-main-menu__main-button" href="https://forms.gle/VMC2Euyw7F6X9D7A8">&nbsp;<i class="fas fa-user-edit"></i>&nbsp;Inscripción</a>
         </div>        
-        
+
 
 
         <div class="l-page">

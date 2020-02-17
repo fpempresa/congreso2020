@@ -1358,6 +1358,10 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  outline: 0;
+}
+
 .c-agenda {
   font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
   font-size: 18px;
@@ -1683,10 +1687,40 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 779px) {
   .c-main-menu__items--movil-visible {
-    display: block;
+    display: flex;
   }
   .c-main-menu__items--movil-hide {
     display: none;
+  }
+  .c-main-menu__items--animation-rollout {
+    display: flex;
+    animation-name: rollout;
+    animation-duration: 1s;
+  }
+  .c-main-menu__items--animation-rollin {
+    display: flex;
+    animation-name: rollin;
+    animation-duration: 1s;
+  }
+}
+@keyframes rollout {
+  from {
+    transform-origin: 0 0;
+    transform: scaleY(0);
+  }
+  to {
+    transform-origin: 0 0;
+    transform: scaleY(1);
+  }
+}
+@keyframes rollin {
+  from {
+    transform-origin: 0 0;
+    transform: scaleY(1);
+  }
+  to {
+    transform-origin: 0 0;
+    transform: scaleY(0);
   }
 }
 
