@@ -1,10 +1,13 @@
-
+@import "base/reset/_meyer.scss";
+@import "base/reset/_normalize.scss";
+@import "base/reset/_personal.scss";
 
 @import "abstracts/global/_responsive.scss";
 @import "abstracts/global/_sizes.scss";
 
 @import "abstracts/global/_padding.scss";
 @import "abstracts/global/_width.scss";
+@import "abstracts/global/_text.scss";
 
 @import "abstracts/mixins/_propiedades.scss";
 
@@ -12,9 +15,7 @@
 @import "abstracts/variables/_font.scss";
 
 
-@import "base/reset/_meyer.scss";
-@import "base/reset/_normalize.scss";
-@import "base/reset/_personal.scss";
+
 
 @import "components/_c-agenda.scss";
 @import "components/_c-button.scss";
