@@ -114,40 +114,36 @@ $c-main-menu-color:#FFFFFF;
         
         &__items--animation-rollout {
             display: flex;
-            animation-name: rollout;
-            animation-duration: 1s;
+            animation-name: animation-rollout;
+            animation-duration: 0.8s;
+            z-index:-1;
         }
         &__items--animation-rollin {
             display: flex;
-            animation-name: rollin;
-            animation-duration: 1s;
+            animation-name: animation-rollin;
+            animation-duration: 0.8s;
+            z-index:-1;
         }         
     }
 
    
 
-    @keyframes rollout {
+    @keyframes animation-rollout {
         from {
-            transform-origin: 0 0;
-            transform: scaleY(0) ;
+            transform: translate(0,-100%);
         }
         to {
-            transform-origin: 0 0;
-            transform: scaleY(1) ;
+            transform: translate(0,0);
         }
     } 
-
-    @keyframes rollin {
+    @keyframes animation-rollin {
         from {
-            transform-origin: 0 0;
-            transform: scaleY(1) ;
+            transform: translate(0,0);
         }
         to {
-            transform-origin: 0 0;
-            transform: scaleY(0) ;
+            transform: translate(0,-100%);
         }
-
-    } 
+    }
 }
 
 
