@@ -10,7 +10,6 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=NTR&display=swap" rel="stylesheet">
         <link href="vendor/fontawesome/css/all.css" rel="stylesheet" type="text/css"/>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
         <script src="vendor/fontawesome/js/all.js" type="text/javascript"></script>
@@ -121,9 +120,11 @@
         <div class="l-page">
             <div class="l-page__area">
                 <div class="c-section c-section--padding-zero">
-                    <div class="c-banner" ><img src="img/banner/FPE_CONGRESO_900X589-01.png" width="100%" alt=""/></div>
-                    
-                </div>                
+                    <img src="img/banner/FPE_CONGRESO_900X589-01.png"  width="100%"
+                         srcset="img/banner/FPE_CONGRESO_300X196-01.png 300w,img/banner/FPE_CONGRESO_400X262-01.png 400w,img/banner/FPE_CONGRESO_500X327-01.png 500w,img/banner/FPE_CONGRESO_600X393-01.png 600w,img/banner/FPE_CONGRESO_700X458-01.png 700w,img/banner/FPE_CONGRESO_800X524-01.png 800w,img/banner/FPE_CONGRESO_900X589-01.png 900w"
+                         sizes="(max-width: 350px) 300w , (min-width: 351px) and (max-width: 450px) 400w, (min-width: 451px) and (max-width: 550px) 500w, (min-width: 551px) and (max-width: 650px) 600w, (min-width: 651px) and (max-width: 750px) 700w, (min-width: 751px) and (max-width: 850px) 800w,(min-width: 851px)  900w"
+                         alt=""/>
+                    </div>               
             </div>
 
             <div class="l-page__area">
@@ -139,8 +140,8 @@
                     </div>
                 </div>                
             </div>
-            <div class="l-page__area" id="agenda">
-                <div class="c-section">
+            <div class="l-page__area">
+                <div class="c-section" id="agenda">
                     <div class="c-section__title">Agenda</div>
                     <div class="c-parallax" style="background-image: url('./img/day-planner-828611_1280.jpg');"></div>
 
