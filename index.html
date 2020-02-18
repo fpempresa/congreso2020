@@ -15,9 +15,7 @@
         <script src="vendor/fontawesome/js/all.js" type="text/javascript"></script>
         <script type="text/javascript">
             function toggleVisibilityMenu() {
-                var itemsElements = document.getElementsByClassName("c-main-menu__items");
-
-                if (itemsElements[0].className.indexOf("c-main-menu__items--movil-visible") >= 0) {
+                if (isVisibleMenu()) {
                     hideMenuItems();
                 } else {
                     showMenuItems();
@@ -38,6 +36,11 @@
             });
 
             function hideMenuItems() {
+                
+                if (isVisibleMenu()===false) {
+                    return;
+                }
+                
                 var itemsElements = document.getElementsByClassName("c-main-menu__items");
                 
                 var cssClass="c-main-menu__items  c-main-menu__items--movil-hide";
@@ -49,6 +52,11 @@
                 itemsElements[0].className = cssClass;
             }
             function showMenuItems() {
+                
+                if (isVisibleMenu()===true) {
+                    return;
+                }
+                
                 var itemsElements = document.getElementsByClassName("c-main-menu__items");
                 
                 var cssClass="c-main-menu__items  c-main-menu__items--movil-visible";
@@ -66,6 +74,15 @@
                 var display=getComputedStyle(hamburgerElements[0], null).display;
                 
                 if (display!=="none") {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            function isVisibleMenu() {
+                var itemsElements = document.getElementsByClassName("c-main-menu__items");
+
+                if (itemsElements[0].className.indexOf("c-main-menu__items--movil-visible") >= 0) {
                     return true;
                 } else {
                     return false;
