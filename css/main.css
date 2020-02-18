@@ -1674,6 +1674,9 @@ and open the template in the editor.
   font-weight: bold;
   white-space: nowrap;
 }
+.c-main-menu__main-button-text {
+  display: inline;
+}
 @media only screen and (max-width: 935px) {
   .c-main-menu__main-button {
     margin-left: auto;
@@ -1681,6 +1684,11 @@ and open the template in the editor.
     padding-left: 0px;
     padding-right: 0px;
     font-size: 18px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .c-main-menu__main-button-text {
+    display: none;
   }
 }
 .c-main-menu__items {

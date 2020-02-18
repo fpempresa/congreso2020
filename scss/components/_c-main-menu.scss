@@ -25,7 +25,7 @@ $c-main-menu-color:#FFFFFF;
             "items items items items";
         grid-template-columns: min-content min-content auto min-content;        
     }
-
+    
     &__logo {
         grid-area:logo;
         background-image: url(../img/logo/logo_fp_empresa2_invertido.png);
@@ -79,6 +79,11 @@ $c-main-menu-color:#FFFFFF;
         font-weight: bold;
         white-space: nowrap;
     }
+    
+    &__main-button-text {
+        display:inline;
+    }  
+    
     @media only screen and (max-width: $c-main-menu-break-menu) {
         &__main-button {
             margin-left: auto;
@@ -88,6 +93,12 @@ $c-main-menu-color:#FFFFFF;
             font-size: $font-size-xs;
         } 
     }
+    @media only screen and (max-width: 450px) {
+        &__main-button-text {
+            display:none;
+        }
+    }    
+    
 
     &__items {
         grid-area:items;
