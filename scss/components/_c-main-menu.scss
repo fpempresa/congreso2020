@@ -1,5 +1,5 @@
 $c-main-menu-menu-height: 62px;
-$c-main-menu-break-menu: 779px;
+$c-main-menu-break-menu: 935px;
 $c-main-menu-logo-width: 250px;
 $c-main-menu-background-color:#0055B8;
 $c-main-menu-color:#FFFFFF;
@@ -17,12 +17,13 @@ $c-main-menu-color:#FFFFFF;
 
 
     display: grid;
-    grid-template-areas:"logo  items main-button";
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-areas:"logo logo2 items main-button";
+    grid-template-columns: min-content min-content auto min-content;
 
     @media only screen and (max-width: $c-main-menu-break-menu) {
-        grid-template-areas:"logo main-button hamburger"
-            "items items items";
+        grid-template-areas:"logo logo2 main-button hamburger"
+            "items items items items";
+        grid-template-columns: min-content min-content auto min-content;        
     }
 
     &__logo {
@@ -31,12 +32,27 @@ $c-main-menu-color:#FFFFFF;
         height: 59px;
         width: 214px;
     }
-    @media only screen and (max-width: 417px) {
+    &__logo2 {
+        grid-area:logo;
+        background-image: url(../img/logo/dualiza_small.png);
+        background-position: center;
+        height: 59px;
+        width: 122px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }    
+    
+    @media only screen and (max-width: 577px) {
         &__logo {
             background-image: url(../img/logo/logo_fp_empresa2_invertido_small.png);
             width: 108px;
         }
+        &__logo2 {
+            margin-right: 5px;
+            margin-left: 5px;
+        } 
     }
+    
 
     &__hamburger {
         grid-area:hamburger;

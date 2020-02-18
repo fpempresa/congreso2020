@@ -12,6 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="vendor/fontawesome/css/all.css" rel="stylesheet" type="text/css"/>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
         <script src="vendor/fontawesome/js/all.js" type="text/javascript"></script>
         <script type="text/javascript">
             function toggleVisibilityMenu() {
@@ -22,7 +23,25 @@
                 }
 
             }
+            function moveTo(idElement) {
+                var topOffset;
+                if (idElement) {
+                    var element = document.getElementById(idElement);
+                    var divOffset = offset(element);
+                    topOffset = divOffset.top;
+                } else {
+                    topOffset = 0;
+                }
 
+
+                window.scroll({
+                    top: topOffset - 59,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+                hideMenuItems();
+
+            }
 
             window.addEventListener('load', function (event) {
                 var itemsElements = document.getElementsByClassName("c-main-menu__items");
@@ -97,31 +116,14 @@
             }
 
 
-            function moveTo(idElement) {
-                var topOffset;
-                if (idElement) {
-                    var element = document.getElementById(idElement);
-                    var divOffset = offset(element);
-                    topOffset = divOffset.top;
-                } else {
-                    topOffset = 0;
-                }
 
-
-                window.scroll({
-                    top: topOffset - 59,
-                    left: 0,
-                    behavior: 'smooth'
-                });
-                hideMenuItems();
-
-            }
         </script>
     </head>
     <body class="c-page">
 
         <div class="c-main-menu">
-            <a href="javascript:void(0);" onclick="moveTo()"><div class="c-main-menu__logo"  ></div></a>
+            <a href="https://fpempresa.net/" ><div class="c-main-menu__logo"  ></div></a>
+            <a href="https://www.dualizabankia.com/" ><div class="c-main-menu__logo2"  ></div></a>
             <a href="javascript:void(0);" class="c-main-menu__hamburger" onclick="toggleVisibilityMenu()"><i class="fas fa-bars"></i></a>
             <ul class="c-main-menu__items c-main-menu__items--movil-hide">
                 <a href="javascript:void(0);" onclick="moveTo('donde')"><li class="c-main-menu__item">Dónde</li></a>
