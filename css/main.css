@@ -1493,7 +1493,7 @@ and open the template in the editor.
 @media only screen and (max-width: 400px) {
   .c-section {
     max-width: 390px px;
-    padding: 0;
+    padding: 8px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 1023px) {

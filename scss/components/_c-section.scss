@@ -10,7 +10,7 @@
         max-width: ($break-movil - 10)px;
         //margin-top: $g-size-xxxxxs;
         //margin-bottom: $g-size-xxxxxs; 
-        padding: 0;
+        padding: $g-size-xxxxxs;
 
     }
     @include tablet {
