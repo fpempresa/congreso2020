@@ -1493,7 +1493,7 @@ and open the template in the editor.
 @media only screen and (max-width: 400px) {
   .c-section {
     max-width: 390px px;
-    padding: 8px;
+    padding: 0;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 1023px) {
@@ -1510,6 +1510,13 @@ and open the template in the editor.
 }
 .c-section--padding-zero {
   padding: 0px;
+}
+.c-section--alt {
+  background-color: #0055B8;
+}
+.c-section--wide {
+  max-width: 100%;
+  width: 100%;
 }
 .c-section__title {
   font-family: "Varela Round", sans-serif;
@@ -1580,6 +1587,9 @@ and open the template in the editor.
   .c-text {
     font-size: 20px;
   }
+}
+.c-text--color-light {
+  color: #f6f7f9;
 }
 
 .c-title {

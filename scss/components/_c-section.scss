@@ -10,7 +10,7 @@
         max-width: ($break-movil - 10)px;
         //margin-top: $g-size-xxxxxs;
         //margin-bottom: $g-size-xxxxxs; 
-        padding: $g-size-xxxxxs;
+        padding: 0;
 
     }
     @include tablet {
@@ -32,6 +32,15 @@
         padding: 0px;
     }
 
+    &--alt {
+        background-color: #0055B8;
+    }
+    
+    &--wide {
+        max-width: 100%;
+        width: 100%;
+    }    
+    
     &__title {
         font-family: $font-family-title;
         font-size: $font-size-xxl;
