@@ -417,6 +417,415 @@ a {
   outline: 0;
 }
 
+.c-agenda {
+  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+  font-size: 18px;
+  width: 100%;
+  line-height: 1.7;
+}
+@media only screen and (max-width: 400px) {
+  .c-agenda {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-agenda {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-agenda {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .c-agenda td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-agenda td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-agenda td {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+.c-agenda__hora {
+  color: #6e8091;
+  padding-bottom: 12px;
+}
+.c-agenda__actividad {
+  padding-bottom: 12px;
+  padding-left: 4px;
+  color: #060809;
+}
+.c-agenda__lista {
+  color: #6e8091;
+  list-style-type: circle;
+  list-style: none;
+  padding: 0;
+}
+.c-agenda__lista li {
+  padding-left: 1.5em;
+}
+.c-agenda__lista li:before {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.5em;
+}
+.c-agenda__lista--personas li:before {
+  content: "";
+  font-weight: 900;
+}
+.c-agenda__lista--colegios li:before {
+  content: "";
+  font-weight: 900;
+}
+.c-agenda__lista--checks li:before {
+  content: "";
+  font-weight: 900;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-feb-2020, 12:12:37
+    Author     : logongas
+*/
+.c-message {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.c-message--main-color {
+  color: #a61744;
+  background-color: #fed7e3;
+  border-color: #f7a1bc;
+}
+.c-message--gris-color {
+  color: #414d58;
+  background-color: #f6f7f9;
+  border-color: #e1e6ea;
+}
+.c-message--alt-color {
+  color: #6a981b;
+  background-color: #f6ffe6;
+  border-color: #d7f7a1;
+}
+.c-message--alt2-color {
+  color: #1b5998;
+  background-color: #e6f2ff;
+  border-color: #a1ccf7;
+}
+
+.c-page {
+  background-color: #FFFFFF;
+}
+
+.c-section {
+  background-color: #ffffff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+@media only screen and (max-width: 400px) {
+  .c-section {
+    max-width: 390px px;
+    padding: 8px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-section {
+    max-width: 700px;
+    padding: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-section {
+    max-width: 900px;
+    padding: 32px;
+  }
+}
+.c-section--padding-zero {
+  padding: 0px;
+}
+.c-section--alt {
+  background-color: #0055B8;
+}
+.c-section--wide {
+  max-width: 100%;
+  width: 100%;
+}
+.c-section__title {
+  font-family: "Varela Round", sans-serif;
+  font-size: 48px;
+  color: #e85986;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 400px) {
+  .c-section__title {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-section__title {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-section__title {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .c-section__content {
+    padding-top: 0px;
+    padding-bottom: 24px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-section__content {
+    padding-top: 0px;
+    padding-bottom: 48px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-section__content {
+    padding-top: 0px;
+    padding-bottom: 64px;
+  }
+}
+
+.c-text {
+  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+  font-size: 24px;
+  color: #6e8091;
+  padding: 24px;
+  line-height: 1.75em;
+}
+@media only screen and (max-width: 400px) {
+  .c-text {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-text {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-text {
+    font-size: 20px;
+  }
+}
+.c-text--color-light {
+  color: #f6f7f9;
+}
+
+.c-title {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  color: #414d58;
+}
+@media only screen and (max-width: 400px) {
+  .c-title {
+    padding: 4px;
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
+  .c-title {
+    padding: 12px;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .c-title {
+    padding: 16px;
+    font-size: 36px;
+  }
+}
+
+.c-main-menu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 62px;
+  background-color: #0055B8;
+  color: #FFFFFF;
+  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+  font-size: 16px;
+  display: grid;
+  grid-template-areas: "logo logo2 items main-button";
+  grid-template-columns: min-content min-content auto min-content;
+}
+@media only screen and (max-width: 935px) {
+  .c-main-menu {
+    grid-template-areas: "logo logo2 main-button hamburger" "items items items items";
+    grid-template-columns: min-content min-content auto min-content;
+  }
+}
+.c-main-menu__logo {
+  grid-area: logo;
+  background-image: url(../img/logo/logo_fp_empresa2_invertido.png);
+  height: 59px;
+  width: 214px;
+}
+.c-main-menu__logo2 {
+  grid-area: logo;
+  background-image: url(../img/logo/dualiza_small.png);
+  background-position: center;
+  height: 59px;
+  width: 122px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 577px) {
+  .c-main-menu__logo {
+    background-image: url(../img/logo/logo_fp_empresa2_invertido_small.png);
+    width: 108px;
+  }
+  .c-main-menu__logo2 {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+.c-main-menu__hamburger {
+  grid-area: hamburger;
+  display: none;
+}
+@media only screen and (max-width: 935px) {
+  .c-main-menu__hamburger {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+  }
+}
+.c-main-menu__main-button {
+  padding-left: 18px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.c-main-menu__main-button-text {
+  display: inline;
+}
+@media only screen and (max-width: 935px) {
+  .c-main-menu__main-button {
+    margin-left: auto;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .c-main-menu__main-button-text {
+    display: none;
+  }
+}
+.c-main-menu__items {
+  grid-area: items;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #0055B8;
+}
+@media only screen and (max-width: 935px) {
+  .c-main-menu__items {
+    margin-left: 0;
+    flex-direction: column;
+  }
+}
+.c-main-menu__item {
+  padding: 0px;
+  margin-top: 23px;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media only screen and (max-width: 935px) {
+  .c-main-menu__items--movil-visible {
+    display: flex;
+  }
+  .c-main-menu__items--movil-hide {
+    display: none;
+  }
+  .c-main-menu__items--animation-rollout {
+    display: flex;
+    animation-name: animation-rollout;
+    animation-duration: 0.8s;
+    z-index: -1;
+  }
+  .c-main-menu__items--animation-rollin {
+    display: flex;
+    animation-name: animation-rollin;
+    animation-duration: 0.8s;
+    z-index: -1;
+  }
+}
+@keyframes animation-rollout {
+  from {
+    transform: translate(0, -100%);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+@keyframes animation-rollin {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0, -100%);
+  }
+}
+
+.c-parallax {
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.l-page {
+  margin-top: 62px;
+  display: flex;
+  flex-direction: column;
+}
+.l-page__area {
+  display: block;
+}
+
 .g--padding-xxxxxxs {
   padding: 4px 4px 4px 4px;
 }
@@ -1364,415 +1773,6 @@ a {
 
 .g--text-underline {
   text-decoration: underline;
-}
-
-.c-agenda {
-  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
-  font-size: 18px;
-  width: 100%;
-  line-height: 1.7;
-}
-@media only screen and (max-width: 400px) {
-  .c-agenda {
-    font-size: 12px;
-  }
-}
-@media only screen and (min-width: 401px) and (max-width: 1023px) {
-  .c-agenda {
-    font-size: 14px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .c-agenda {
-    font-size: 14px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .c-agenda td {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-}
-@media only screen and (min-width: 401px) and (max-width: 1023px) {
-  .c-agenda td {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .c-agenda td {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-}
-.c-agenda__hora {
-  color: #6e8091;
-  padding-bottom: 12px;
-}
-.c-agenda__actividad {
-  padding-bottom: 12px;
-  padding-left: 4px;
-  color: #060809;
-}
-.c-agenda__lista {
-  color: #6e8091;
-  list-style-type: circle;
-  list-style: none;
-  padding: 0;
-}
-.c-agenda__lista li {
-  padding-left: 1.5em;
-}
-.c-agenda__lista li:before {
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  margin-left: -1.5em;
-  width: 1.5em;
-}
-.c-agenda__lista--personas li:before {
-  content: "";
-  font-weight: 900;
-}
-.c-agenda__lista--colegios li:before {
-  content: "";
-  font-weight: 900;
-}
-.c-agenda__lista--checks li:before {
-  content: "";
-  font-weight: 900;
-}
-
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 15-feb-2020, 12:12:37
-    Author     : logongas
-*/
-.c-message {
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-.c-message--main-color {
-  color: #a61744;
-  background-color: #fed7e3;
-  border-color: #f7a1bc;
-}
-.c-message--gris-color {
-  color: #414d58;
-  background-color: #f6f7f9;
-  border-color: #e1e6ea;
-}
-.c-message--alt-color {
-  color: #6a981b;
-  background-color: #f6ffe6;
-  border-color: #d7f7a1;
-}
-.c-message--alt2-color {
-  color: #1b5998;
-  background-color: #e6f2ff;
-  border-color: #a1ccf7;
-}
-
-.c-page {
-  background-color: #FFFFFF;
-}
-
-.c-section {
-  background-color: #ffffff;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 3px;
-  margin-bottom: 3px;
-}
-@media only screen and (max-width: 400px) {
-  .c-section {
-    max-width: 390px px;
-    padding: 8px;
-  }
-}
-@media only screen and (min-width: 401px) and (max-width: 1023px) {
-  .c-section {
-    max-width: 700px;
-    padding: 16px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .c-section {
-    max-width: 900px;
-    padding: 32px;
-  }
-}
-.c-section--padding-zero {
-  padding: 0px;
-}
-.c-section--alt {
-  background-color: #0055B8;
-}
-.c-section--wide {
-  max-width: 100%;
-  width: 100%;
-}
-.c-section__title {
-  font-family: "Varela Round", sans-serif;
-  font-size: 48px;
-  color: #e85986;
-  font-weight: bolder;
-  text-align: center;
-  text-transform: uppercase;
-}
-@media only screen and (max-width: 400px) {
-  .c-section__title {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    font-size: 30px;
-  }
-}
-@media only screen and (min-width: 401px) and (max-width: 1023px) {
-  .c-section__title {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    font-size: 36px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .c-section__title {
-    padding-top: 64px;
-    padding-bottom: 64px;
-    font-size: 48px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .c-section__content {
-    padding-top: 0px;
-    padding-bottom: 24px;
-  }
-}
-@media only screen and (min-width: 401px) and (max-width: 1023px) {
-  .c-section__content {
-    padding-top: 0px;
-    padding-bottom: 48px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .c-section__content {
-    padding-top: 0px;
-    padding-bottom: 64px;
-  }
-}
-
-.c-text {
-  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
-  font-size: 24px;
-  color: #6e8091;
-  padding: 24px;
-  line-height: 1.75em;
-}
-@media only screen and (max-width: 400px) {
-  .c-text {
-    font-size: 16px;
-  }
-}
-@media only screen and (min-width: 401px) and (max-width: 1023px) {
-  .c-text {
-    font-size: 18px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .c-text {
-    font-size: 20px;
-  }
-}
-.c-text--color-light {
-  color: #f6f7f9;
-}
-
-.c-title {
-  font-family: "Varela Round", sans-serif;
-  text-align: center;
-  font-size: 36px;
-  color: #414d58;
-}
-@media only screen and (max-width: 400px) {
-  .c-title {
-    padding: 4px;
-    font-size: 24px;
-  }
-}
-@media only screen and (min-width: 401px) and (max-width: 1023px) {
-  .c-title {
-    padding: 12px;
-    font-size: 30px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .c-title {
-    padding: 16px;
-    font-size: 36px;
-  }
-}
-
-.c-main-menu {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 62px;
-  background-color: #0055B8;
-  color: #FFFFFF;
-  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
-  font-size: 16px;
-  display: grid;
-  grid-template-areas: "logo logo2 items main-button";
-  grid-template-columns: min-content min-content auto min-content;
-}
-@media only screen and (max-width: 935px) {
-  .c-main-menu {
-    grid-template-areas: "logo logo2 main-button hamburger" "items items items items";
-    grid-template-columns: min-content min-content auto min-content;
-  }
-}
-.c-main-menu__logo {
-  grid-area: logo;
-  background-image: url(../img/logo/logo_fp_empresa2_invertido.png);
-  height: 59px;
-  width: 214px;
-}
-.c-main-menu__logo2 {
-  grid-area: logo;
-  background-image: url(../img/logo/dualiza_small.png);
-  background-position: center;
-  height: 59px;
-  width: 122px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-@media only screen and (max-width: 577px) {
-  .c-main-menu__logo {
-    background-image: url(../img/logo/logo_fp_empresa2_invertido_small.png);
-    width: 108px;
-  }
-  .c-main-menu__logo2 {
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-}
-.c-main-menu__hamburger {
-  grid-area: hamburger;
-  display: none;
-}
-@media only screen and (max-width: 935px) {
-  .c-main-menu__hamburger {
-    display: inline-block;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 0px;
-  }
-}
-.c-main-menu__main-button {
-  padding-left: 18px;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  font-size: 18px;
-  font-weight: bold;
-  white-space: nowrap;
-}
-.c-main-menu__main-button-text {
-  display: inline;
-}
-@media only screen and (max-width: 935px) {
-  .c-main-menu__main-button {
-    margin-left: auto;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width: 450px) {
-  .c-main-menu__main-button-text {
-    display: none;
-  }
-}
-.c-main-menu__items {
-  grid-area: items;
-  margin-left: auto;
-  display: flex;
-  flex-direction: row;
-  background-color: #0055B8;
-}
-@media only screen and (max-width: 935px) {
-  .c-main-menu__items {
-    margin-left: 0;
-    flex-direction: column;
-  }
-}
-.c-main-menu__item {
-  padding: 0px;
-  margin-top: 23px;
-  margin-bottom: 16px;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-@media only screen and (max-width: 935px) {
-  .c-main-menu__items--movil-visible {
-    display: flex;
-  }
-  .c-main-menu__items--movil-hide {
-    display: none;
-  }
-  .c-main-menu__items--animation-rollout {
-    display: flex;
-    animation-name: animation-rollout;
-    animation-duration: 0.8s;
-    z-index: -1;
-  }
-  .c-main-menu__items--animation-rollin {
-    display: flex;
-    animation-name: animation-rollin;
-    animation-duration: 0.8s;
-    z-index: -1;
-  }
-}
-@keyframes animation-rollout {
-  from {
-    transform: translate(0, -100%);
-  }
-  to {
-    transform: translate(0, 0);
-  }
-}
-@keyframes animation-rollin {
-  from {
-    transform: translate(0, 0);
-  }
-  to {
-    transform: translate(0, -100%);
-  }
-}
-
-.c-parallax {
-  min-height: 200px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.l-page {
-  margin-top: 62px;
-  display: flex;
-  flex-direction: column;
-}
-.l-page__area {
-  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */

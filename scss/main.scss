@@ -5,9 +5,8 @@
 @import "abstracts/global/_responsive.scss";
 @import "abstracts/global/_sizes.scss";
 
-@import "abstracts/global/_padding.scss";
-@import "abstracts/global/_width.scss";
-@import "abstracts/global/_text.scss";
+
+
 
 @import "abstracts/mixins/_propiedades.scss";
 
@@ -29,3 +28,7 @@
 
 @import "layout/_l-page.scss";
 
+
+@import "global/_padding.scss";
+@import "global/_width.scss";
+@import "global/_text.scss";
