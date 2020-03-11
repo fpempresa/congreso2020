@@ -17,14 +17,10 @@ $c-main-menu-color:#FFFFFF;
 
 
     display: grid;
-    grid-template-areas:"logo logo2 items main-button";
+    grid-template-areas:"logo";
     grid-template-columns: min-content min-content auto min-content;
 
-    @media only screen and (max-width: $c-main-menu-break-menu) {
-        grid-template-areas:"logo logo2 main-button hamburger"
-            "items items items items";
-        grid-template-columns: min-content min-content auto min-content;        
-    }
+
     
     &__logo {
         grid-area:logo;
@@ -42,32 +38,14 @@ $c-main-menu-color:#FFFFFF;
         margin-left: 20px;
     }    
     
-    @media only screen and (max-width: 577px) {
-        &__logo {
-            background-image: url(../img/logo/logo_fp_empresa2_invertido_small.png);
-            width: 108px;
-        }
-        &__logo2 {
-            margin-right: 5px;
-            margin-left: 5px;
-        } 
-    }
+
     
 
     &__hamburger {
         grid-area:hamburger;
         display: none;
     }    
-    @media only screen and (max-width: $c-main-menu-break-menu) {
-        &__hamburger {
 
-            display: inline-block;
-            padding-left: 20px;
-            padding-top: 20px;
-            padding-right: 20px;
-            padding-bottom: 0px;
-        }
-    }
 
     &__main-button {
 
@@ -84,20 +62,7 @@ $c-main-menu-color:#FFFFFF;
         display:inline;
     }  
     
-    @media only screen and (max-width: $c-main-menu-break-menu) {
-        &__main-button {
-            margin-left: auto;
-            padding-top: 20px;
-            padding-left: 0px;
-            padding-right: 0px;
-            font-size: $font-size-xs;
-        } 
-    }
-    @media only screen and (max-width: 450px) {
-        &__main-button-text {
-            display:none;
-        }
-    }    
+   
     
 
     &__items {
@@ -108,12 +73,7 @@ $c-main-menu-color:#FFFFFF;
         flex-direction: row;
         background-color: $c-main-menu-background-color;
     }  
-    @media only screen and (max-width: $c-main-menu-break-menu) {
-        &__items {
-            margin-left:0;
-            flex-direction: column;
-        }
-    }
+
 
 
     &__item {
@@ -124,34 +84,9 @@ $c-main-menu-color:#FFFFFF;
         padding-right: $g-size-xxxxs;
     } 
 
-    @media only screen and (max-width: $c-main-menu-break-menu) {
-        &__item {
-        }
+    
 
-    }    
 
-    @media only screen and (max-width: $c-main-menu-break-menu) {
-        &__items--movil-visible {
-            display: flex;
-        }
-
-        &__items--movil-hide {
-            display: none;
-        }
-        
-        &__items--animation-rollout {
-            display: flex;
-            animation-name: animation-rollout;
-            animation-duration: 0.8s;
-            z-index:-1;
-        }
-        &__items--animation-rollin {
-            display: flex;
-            animation-name: animation-rollin;
-            animation-duration: 0.8s;
-            z-index:-1;
-        }         
-    }
 
    
 
